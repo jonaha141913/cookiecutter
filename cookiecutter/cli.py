@@ -237,7 +237,6 @@ def main(
             directory=directory,
             skip_if_file_exists=skip_if_file_exists,
             accept_hooks=_accept_hooks,
-            keep_project_on_failure=keep_project_on_failure,
         )
     except (
         ContextDecodingException,
